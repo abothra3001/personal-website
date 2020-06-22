@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {HashRouter as Router, Route, Switch,} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch,} from 'react-router-dom';
 import { Home } from './Home';
 import { Music } from './Music';
 import { FullCV } from './FullCV';
