@@ -9,7 +9,9 @@ export const FullCV = () => (
 
 
   <div>
+    <a href = 'https://drive.google.com/file/d/1_b1_u0Zk0OhHZr0VTCiOp9M4sRcRCV41/view?usp=sharing'>
     <p> Here's a copy of my 1-page resume </p>
+    </a>
     <h5> Jump to...</h5>
       <div className = "underline">
         <Row>

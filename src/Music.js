@@ -1,5 +1,5 @@
 import React from 'react'
-
+import solitude from './assets/Solitude.mp4'
 export const Music = () => (
   <div>
     <h1> In my free time I like to make music!</h1>
@@ -14,8 +14,7 @@ export const Music = () => (
     <div className = "padding50"></div>
     <p> If you'd like to listen to something more serious. Here is a piece I composed in my junior year of high school called Solitude. </p>
     <div className="embed-responsive embed-responsive-16by9">
-    <iframe title="embedsPage" className="embed-responsive-item" src="https://drive.google.com/file/d/1gbIuG1llj8eOcL7xllKMwNDzae90K2EH/view?usp=sharing"
-    allowfullscreen></iframe>
+    <iframe title="embedsPage" className="embed-responsive-item" src= {solitude} allowfullscreen></iframe>
     </div>
 
     <p> I post a lot of covers on my instagram: @jellibelli_sings. </p>

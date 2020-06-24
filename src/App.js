@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Route, Switch,} from 'react-router-dom';
+import {HashRouter as Router, Route, Switch } from 'react-router-dom';
 import { Home } from './Home';
 import { Music } from './Music';
 import { FullCV } from './FullCV';
@@ -18,22 +18,32 @@ class App extends Component {
       <>
       <div>
     <Helmet>
-      <title>Anjali Bothra </title>
+      <title> Anjali Bothra </title>
     </Helmet>
   </div>
       <NavigationBar/>
       <Jumbotron/>
       <Container fluid className = "container">
+
       <Router>
-        <Switch>
-        <Route exact path="/" component={(Home)}/>
-        //issue is that its only showing the first one listed
-        <Route  exact path="/fullCV" component={(FullCV)}/>
-        <Route exact path="/music" component={Music}/>
-        <Route exact path="/contactme" component ={(ContactMe)}/>
-        <Route component={(NoMatch)}/>
-        </Switch>
-      </Router>
+         <Switch>
+           <Route exact path="/">
+             <Home/>
+           </Route>
+           <Route path="/fullCV">
+             <FullCV />
+           </Route>
+           <Route path="/music">
+             <Music />
+           </Route>
+           <Route path="/contactme">
+             <ContactMe/>
+           </Route>
+         </Switch>
+       </Router>
+
+
+
       </Container>
       </>
     );
