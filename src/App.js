@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {HashRouter as Router, Route, Switch } from 'react-router-dom';
+import {HashRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import {Nav} from 'react-bootstrap'
 import { Home } from './Home';
 import { Music } from './Music';
 import { FullCV } from './FullCV';
@@ -25,24 +26,15 @@ class App extends Component {
       <Jumbotron/>
       <Container fluid className = "container">
 
-      <Router>
-         <Switch>
-           <Route exact path="/">
-             <Home/>
-           </Route>
-           <Route path="/fullCV">
-             <FullCV />
-           </Route>
-           <Route path="/music">
-             <Music />
-           </Route>
-           <Route path="/contactme">
-             <ContactMe/>
-           </Route>
-         </Switch>
-       </Router>
-
-
+      <Router basename = "personal-website">
+              <Switch>
+              <Route exact path="/" component={(Home)}/>
+              <Route exact path="/fullCV" component={(FullCV)}/>
+              <Route exact path="/music" component={Music}/>
+              <Route exact path="/contactme" component ={(ContactMe)}/>
+              <Route component={(NoMatch)}/>
+              </Switch>
+            </Router>
 
       </Container>
       </>

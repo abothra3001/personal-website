@@ -25,7 +25,7 @@ export const FullCV = () => (
             <Link to="dest-projects"><h4> Projects </h4></Link>
           </Col>
           <Col>
-            <Link to="dest-extra"><h4> Extracirriculars </h4></Link>
+            <Link to="dest-extra"><h4> Extracurriculars </h4></Link>
           </Col>
           <Col>
             <Link to="dest-a&a"><h4> Awards & Achievements </h4></Link>
@@ -203,7 +203,7 @@ export const FullCV = () => (
 
            <div id="dest-extra">
            <div className = "underline">
-             <h1> Extracirriculars </h1>
+             <h1> Extracurriculars </h1>
              </div>
            </div>
 

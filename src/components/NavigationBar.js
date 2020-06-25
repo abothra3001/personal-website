@@ -1,5 +1,7 @@
 import React from "react";
 import {Nav, Navbar} from "react-bootstrap";
+import {Link, HashRouter as Router} from "react-router-dom";
+import sunflower from '../assets/sunflower.png'
 import styled from 'styled-components';
 
 const Styles = styled.div`
@@ -19,16 +21,18 @@ const Styles = styled.div`
 export const NavigationBar = () => (
   <Styles>
   <Navbar expand = "lg">
-  <Navbar.Brand href = "/"> //make yoself a logo or smth
-  </Navbar.Brand>
+  
+
 
   <Navbar.Toggle aria-controls="basic-navbar-nav"/>
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Item><Nav.Link href = "/">Home</Nav.Link></Nav.Item>
-      <Nav.Item><Nav.Link href = "/fullCV">Full CV</Nav.Link></Nav.Item>
-      <Nav.Item><Nav.Link href = "/music">Music</Nav.Link></Nav.Item>
-      <Nav.Item><Nav.Link href = "/contactme">Contact Me</Nav.Link></Nav.Item>
+     <Router>
+      <Nav.Item><Nav.Link as = {Link} to = "/">Home</Nav.Link></Nav.Item>
+      <Nav.Item><Nav.Link as = {Link} to = "/fullCV">Full CV</Nav.Link></Nav.Item>
+      <Nav.Item><Nav.Link as = {Link} to = "/music">Music</Nav.Link></Nav.Item>
+      <Nav.Item><Nav.Link as = {Link} to = "/contactme">Contact Me</Nav.Link></Nav.Item>
+      </Router>
     </Nav>
   </Navbar.Collapse>
   </Navbar>
