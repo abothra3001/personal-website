@@ -20,14 +20,26 @@ export const Home = () => (
          <Nav.Item><Nav.Link as = {Link} to = "/music"><h4> Music and Music Videos </h4></Nav.Link></Nav.Item>
          <Nav.Item><Nav.Link as = {Link} to = "/contactme"><h4> Get in Contact with Me </h4></Nav.Link></Nav.Item>
          </Router>
-      
+
       </Col>
+      <div class = "headshot1pic">
        <Col>
 
       <img src = {headshot} height = {380} />
 
       </Col>
+      </div>
     </Row>
+
+    <div class = "mobileheadshot">
+    <Row>
+    <div class = "padding20">
+    <img src = {headshot} width = "100%"/>
+    </div>
+    </Row>
+
+    </div>
+
 
   </div>
 

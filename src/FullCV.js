@@ -12,8 +12,11 @@ export const FullCV = () => (
     <a href = 'https://drive.google.com/file/d/1_b1_u0Zk0OhHZr0VTCiOp9M4sRcRCV41/view?usp=sharing'>
     <p> Here's a copy of my 1-page resume </p>
     </a>
+    <div className = "mobileformatCV">
     <h5> Jump to...</h5>
+    </div>
       <div className = "underline">
+      <div className = "mobileformatCV">
         <Row>
           <Col>
             <Link to="dest-edu"><h4> Education </h4></Link>
@@ -34,6 +37,7 @@ export const FullCV = () => (
             <Link to="dest-skills"><h4> Skills </h4></Link>
           </Col>
         </Row>
+        </div>
         <div className = "padding1">
         </div>
 
@@ -235,6 +239,12 @@ export const FullCV = () => (
            <Col sm ={10}>
            <h3 className = "lposition"> MyPeakScore </h3><h5 className = "lposition" ><i>  SAT Tutor </i></h5> </Col>
            <Col sm ={2}><div className = "date"> 2019 - Present </div></Col>
+           </Row>
+
+           <Row>
+           <Col sm ={10}>
+           <h3 className = "lposition"> Center for Hope Hospice </h3><h5 className = "lposition" ><i>  Music Therapy Volunteer </i></h5> </Col>
+           <Col sm ={2}><div className = "date"> 2016 - 2018 </div></Col>
            </Row>
 
            <div className = "padding50">

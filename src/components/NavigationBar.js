@@ -1,8 +1,11 @@
 import React from "react";
-import {Nav, Navbar} from "react-bootstrap";
+import {Button, Nav, Navbar} from "react-bootstrap";
 import {Link, HashRouter as Router} from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import sunflower from '../assets/sunflower.png'
 import styled from 'styled-components';
+import '../mycssfile.css';
+import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Styles = styled.div`
   .navbar{
@@ -15,17 +18,22 @@ const Styles = styled.div`
     &hover {
       color: white;
     }
-  }
+
   `;
 
 export const NavigationBar = () => (
   <Styles>
   <Navbar expand = "lg">
-  
+  <Navbar.Brand></Navbar.Brand>
+  <Navbar.Toggle aria-controls="basic-navbar-nav">
+  <span>
+      <FontAwesomeIcon
+        icon={faBars} color="gray" size="1x"
+      />
+  </span>
+  </Navbar.Toggle>
+  <Navbar.Collapse id="basic-navbar-nav" >
 
-
-  <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-  <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
      <Router>
       <Nav.Item><Nav.Link as = {Link} to = "/">Home</Nav.Link></Nav.Item>
@@ -34,6 +42,8 @@ export const NavigationBar = () => (
       <Nav.Item><Nav.Link as = {Link} to = "/contactme">Contact Me</Nav.Link></Nav.Item>
       </Router>
     </Nav>
+
+
   </Navbar.Collapse>
   </Navbar>
   </Styles>
