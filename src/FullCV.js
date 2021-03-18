@@ -9,7 +9,7 @@ export const FullCV = () => (
 
 
   <div>
-    <a href = 'https://drive.google.com/file/d/1_b1_u0Zk0OhHZr0VTCiOp9M4sRcRCV41/view?usp=sharing'>
+    <a href = 'https://drive.google.com/file/d/1S1sC_7htVcmTw2E3KHFOFMBC8i_rg233/view?usp=sharing'>
     <p> Here's a copy of my 1-page resume </p>
     </a>
     <div className = "mobileformatCV">
@@ -19,22 +19,22 @@ export const FullCV = () => (
       <div className = "mobileformatCV">
         <Row>
           <Col>
-            <Link to="dest-edu"><h4> Education </h4></Link>
+            <Link to="dest-edu"><h4 className = "pointer"> Education </h4></Link>
           </Col>
           <Col>
-            <Link to="dest-lwe"><h4> Leadership & Work Experience </h4></Link>
+            <Link to="dest-lwe"><h4 className = "pointer"> Leadership & Work Experience </h4></Link>
           </Col>
           <Col>
-            <Link to="dest-projects"><h4> Projects </h4></Link>
+            <Link to="dest-projects"><h4 className = "pointer"> Projects </h4></Link>
           </Col>
           <Col>
-            <Link to="dest-extra"><h4> Extracurriculars </h4></Link>
+            <Link to="dest-extra"><h4 className = "pointer"> Extracurriculars </h4></Link>
           </Col>
           <Col>
-            <Link to="dest-a&a"><h4> Awards & Achievements </h4></Link>
+            <Link to="dest-a&a"><h4 className = "pointer"> Awards & Achievements </h4></Link>
           </Col>
           <Col>
-            <Link to="dest-skills"><h4> Skills </h4></Link>
+            <Link to="dest-skills"><h4 className = "pointer"> Skills </h4></Link>
           </Col>
         </Row>
         </div>
@@ -58,10 +58,9 @@ export const FullCV = () => (
     </Col>
     <Col sm = {8}>
     <p> Honors College, Rutgers Business School </p>
-    <p> Double Major in Business Analytics Information Technology & Biomathematics </p>
-    <p> Minor in Computer Science </p>
-    <p> GPA: 3.868 </p>
-    <p> Relevent Courses: Mathematical Theory of Probability, Data Structures, Multivariable Calculus, Intro to Microeconoimcs, Intro to Macroeconomics, Intro to Marketing, Intro to Managment, Genetics </p>
+    <p> Triple Major in Business Analytics Information Technology, Biomathematics & Computer Science </p>
+    <p> GPA: 3.896 </p>
+    <p> Relevent Courses: Mathematical Theory of Probability, Mathematical Theory of Statistics, Numerical Analysis & Computing, Data Structures, Multivariable Calculus, Intro to Microeconoimcs, Intro to Macroeconomics, Intro to Marketing, Intro to Management, Genetics, Dynamic Models in Biology </p>
     </Col >
     <Col sm = {2}>
     <div className = "date">Class of 2022</div>
@@ -102,7 +101,7 @@ export const FullCV = () => (
     <h3 className = "lposition"> Rutgers Enactus</h3><h5 className = "lposition" ><i> Project Lead for New Beginnings</i></h5>
 
         <p> - Conducted extensive research on factors related to rates of recidivism, the rate at which ex-offenders return to prison </p>
-        <p> - Developed cirriculum centered around professional development, mentorship and mental health target to reducing recidivism rates </p>
+        <p> - Developed curriculum centered around professional development, mentorship and mental health target to reducing recidivism rates </p>
         <p> - Secured a $3,000 grant from Menasha Corporation </p>
         <p> - Built connections with local re-entry programs such as Mountainview and Riker's Debate </p>
         <p> - Won an additional $3,000 from Menasha accelerator </p>
@@ -119,7 +118,7 @@ export const FullCV = () => (
           <h5><i>Competition Committee Member</i></h5>
         </div>
         <p> - Edited video for National Competition highlighting Rutgers Enactus' social impact </p>
-        <p> - Assissted in creation of Annual Report </p>
+        <p> - Assisted in creation of Annual Report </p>
       </Col>
         <Col sm ={2}>
           <div className = "date">Spring 2020 </div>
@@ -144,17 +143,28 @@ export const FullCV = () => (
       <p> -	Used software to map and identify exophers in worms at different stages of life</p>
           </Col>
         <Col sm ={2}>
-          <div className = "date"> Spring 2020 - Present </div>
+          <div className = "date"> Spring 2020 </div>
         </Col>
         </Row>
-      <Row>
+        <Row>
           <Col sm = {10}>
-            <h3 className = "lposition"> Rutgers Univerity </h3><h5 className = "lposition" ><i> Learning Assistant for Calculus II</i></h5>
-              <p> -	Facilitate Learning in Calculus II recitations </p>
+            <h3 className = "lposition"> Rutgers Univerity </h3><h5 className = "lposition" ><i> Student Athlete Tutor</i></h5>
+              <p> -	Assisted student athletes in a variety of subjects encompassing Mathematics and Computer Science </p>
           </Col>
         <Col sm ={2}>
-          <div className = "date"> Fall 2019 - Present </div>
+          <div className = "date"> 2020 - 2021</div>
         </Col>
+        </Row>
+        <Row>
+        <Col sm = {10}>
+        <div className = "padding1">
+        <h5><i>Learning Assistant for Calculus II</i></h5>
+        </div>
+            <p> - Facilitate Learning in Calculus II recitations </p>
+            </Col>
+            <Col sm ={2}>
+            <div className = "date">2019 - 2020 </div>
+            </Col>
         </Row>
         <Row>
             <Col sm = {10}>
@@ -182,6 +192,13 @@ export const FullCV = () => (
             </div>
           </div>
 
+          <Row>
+          <Col sm = {10}>
+          <h3> New Beginnings Website/App </h3>
+            <p> - Currently developing a website using a MERN stack, which will be serve as a resource for people who were previously incarcereated. </p>
+          </Col>
+          <Col sm = {2}><div className = "date"> September 2020 </div> </Col>
+          </Row>
           <Row>
           <Col sm = {10}>
           <h3> Personal Website </h3>
@@ -213,7 +230,7 @@ export const FullCV = () => (
 
            <Row>
            <Col sm ={10}>
-           <h3 className = "lposition"> Rutgers Olympic Weightlifting </h3><h5 className = "lposition" ><i>  Incoming Vice President</i></h5> </Col>
+           <h3 className = "lposition"> Rutgers Olympic Weightlifting </h3><h5 className = "lposition" ><i> Vice President</i></h5> </Col>
            <Col sm ={2}><div className = "date"> Spring 2020 - Present </div></Col>
            </Row>
 
@@ -272,7 +289,7 @@ export const FullCV = () => (
       </Row>
 
       <Row>
-      <Col sm={10}><h5> 2 Published Sequencees on NCBI</h5> </Col>
+      <Col sm={10}><h5> 2 Published Sequences on NCBI</h5> </Col>
       <Col sm={2}><div className = "date"> 2017-2018 </div></Col>
       </Row>
 
@@ -281,7 +298,7 @@ export const FullCV = () => (
         <h1> Skills </h1>
       </div>
       </div>
-      <h5><b> Programming Languages:</b> Java, Python, JavaScript, HTML, CSS </h5>
+      <h5><b> Programming Languages:</b> Java, Python, C, JavaScript, HTML, CSS, SQL </h5>
       <h5><b> Languages:</b> English, Hindi, Marwari, Spanish </h5>
       <h5><b> Software:</b> React, MATLAB, Autodesk Fusion, Autodesk Inventor, SolidWorks, SketchUp, Microsoft Office</h5>
 
