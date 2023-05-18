@@ -13,7 +13,7 @@ export const Home = () => (
     <Row>
       <Col>
 
-        <h6> I'm Anjali, welcome to my personal website! This is the first website I have created, but I'm hoping to expand my horizons in regards to full stack web development.</h6>
+        <h6> I'm Anjali, thanks for visiting my personal website! This is the first website I have created, but I'm hoping to expand my horizons in regards to full stack web development.</h6>
 
         <Router>
          <Nav.Item><Nav.Link as = {Link} to = "/fullCV"><h4> Full C/V and Resume </h4></Nav.Link></Nav.Item>

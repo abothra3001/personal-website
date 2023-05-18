@@ -58,8 +58,9 @@ export const FullCV = () => (
     </Col>
     <Col sm = {8}>
     <p> Honors College, Rutgers Business School </p>
-    <p> Triple Major in Business Analytics Information Technology, Biomathematics & Computer Science </p>
-    <p> GPA: 3.896 </p>
+    <p> Double Major in Biomathematics & Computer Science </p>
+    <p> GPA: 3.819 </p>
+    <p> Magna Cum Laude</p>
     <p> Relevent Courses: Mathematical Theory of Probability, Mathematical Theory of Statistics, Numerical Analysis & Computing, Data Structures, Multivariable Calculus, Intro to Microeconoimcs, Intro to Macroeconomics, Intro to Marketing, Intro to Management, Genetics, Dynamic Models in Biology </p>
     </Col >
     <Col sm = {2}>
@@ -109,7 +110,7 @@ export const FullCV = () => (
     </Col>
 
     <Col sm ={2}>
-      <div className = "date">Fall 2019 to Present </div>
+      <div className = "date">Fall 2019 to Fall 2021 </div>
     </Col>
     </Row>
     <Row>
