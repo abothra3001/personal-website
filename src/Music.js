@@ -4,11 +4,17 @@ import solitude from './assets/Solitude.mp4'
 
 export const Music = () => (
   <div>
-    <h1> In my free time I like to make music!</h1>
-
+    <h1> In my free time I like to make music and music videos!</h1>
 
     <div className = "padding20"></div>
-    <p> If you'd like to listen to something more serious. Here is a piece I composed in my junior year of high school called Solitude. </p>
+    <p> In March 2023, I dropped my first album called Apathy. Give it a listen on <a href = "https://open.spotify.com/album/5v5EsQF8LCHRUeuhljX2yb" target="_blank" rel="noopener noreferrer">Spotify</a> or <a href = "https://music.apple.com/us/album/apathy/1676713659" target="_blank" rel="noopener noreferrer">Apple Music </a>! </p>
+"
+    <div align = "center">
+    <iframe src="https://open.spotify.com/embed/album/5v5EsQF8LCHRUeuhljX2yb?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+
+    <div className = "padding20"></div>
+    <p> If you'd like to listen to something less lyrical, here is a piece I composed in my junior year of high school called Solitude. </p>
 
     <div align = "center">
     <ReactPlayer url = {solitude} controls = {true} width = "100%" height = "auto"/ >
@@ -31,6 +37,6 @@ export const Music = () => (
   </div>
 
     <div className = "padding20"></div>
-    <p> I post a lot of covers on my instagram: @jellibelli_sings. </p>
+    <p> I post a lot of covers on my instagram:<a href = "https://www.instagram.com/anjali_bunjali/" target="_blank" rel="noopener noreferrer">@anjali_bunjali</a> </p>
   </div>
 )

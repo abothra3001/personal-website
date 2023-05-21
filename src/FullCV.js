@@ -60,7 +60,7 @@ export const FullCV = () => (
     <p> Honors College, Rutgers Business School </p>
     <p> Double Major in Biomathematics & Computer Science </p>
     <p> GPA: 3.819 </p>
-    <p> Magna Cum Laude</p>
+    <p> <i>Magna Cum Laude</i></p>
     <p> Relevent Courses: Mathematical Theory of Probability, Mathematical Theory of Statistics, Numerical Analysis & Computing, Data Structures, Multivariable Calculus, Intro to Microeconoimcs, Intro to Macroeconomics, Intro to Marketing, Intro to Management, Genetics, Dynamic Models in Biology </p>
     </Col >
     <Col sm = {2}>
@@ -99,8 +99,63 @@ export const FullCV = () => (
     </div>
     <Row>
     <Col sm = {10}>
-    <h3 className = "lposition"> Rutgers Enactus</h3><h5 className = "lposition" ><i> Project Lead for New Beginnings</i></h5>
+    <h3 className = "lposition"> Tektronix </h3><h5 className = "lposition" ><i> Application Developer Analyst</i></h5>
+        <p> - Restructuring and redesigning of data from various softwares (Gage, IMH) to Micorsoft Dynamics </p>
+        <p> - Modifying Entities in Microsft Dynamics through Dynamics UI, C# assembly, Javascript, PowerAutomate, XRM Toolbox, etc. </p>
+        <p> - Supporting users in different functionalities of a variety of custom Tektronix Applications</p>
+        <p> - Creating documentation and training videos to capture the ins and outs of day to day processes in Dynamics</p>
+        </Col>
 
+    <Col sm ={2}>
+      <div className = "date">Fall 2022 to Present </div>
+    
+    </Col>
+    </Row>
+    <Row>
+      <Col sm = {10}>
+        <div className = "padding1">
+          <h5><i>Commercial Systems IT Intern</i></h5>
+        </div>
+        <p> - Learned how to create and extensively modify entities in Micorsoft Dynamics using tools such as PowerAutomate, C# PlugIns, Workflows, Javascript modifications, XRMToolbox</p>
+        <p> - Created an application for Sales Teams Members in China to efficiently submit Export Control Requests to ensure compliability with trade restrictions </p>
+        </Col>
+        <Col sm ={2}>
+          <div className = "date">Summer 2022</div>
+        </Col>
+      </Row>
+    <Row>
+    <Col sm = {10}>
+    <h3 className = "lposition"> Esteé Lauder Companies</h3><h5 className = "lposition" ><i> IT Finance Intern</i></h5>
+
+        <p> - Consolidated and organized large data sets of 2000+ invoices to pay back $500k balance </p>
+        <p> - Enhanced efficiency of daily processes by creating bots using Power Automate and UiPath</p>
+        <p> - Leveraged different analytical tools to understand data, present findings, and make business decisions about the value added from renovating 230+ free standing stores</p>
+        <p> - Developed a mock app with a team of 5 IT interns to target unique demographics</p>
+        </Col>
+
+    <Col sm ={2}>
+      <div className = "date">Summer 2021 </div>
+    </Col>
+    </Row>
+    <Row>
+    <Col sm = {10}>
+    <h3 className = "lposition"> Rutgers Enactus</h3><h5 className = "lposition" ><i> Director of Projects</i></h5>
+
+        <p> - Oversaw the development of 10 different social entreprenuership projects, each with 8-20 members, targeting the UN SDG goals </p>
+        <p> - Utilized the Gale Shapley algorithm to develop an efficient method of member allocation for over 80 new members in 10 projects</p>
+        <p> - Facilitated leadership development workshops to support Project Leads</p>
+        <p> - Collaborated with different Rutgers entities to secure funding, resources, and assistance for various projects</p>
+        </Col>
+
+    <Col sm ={2}>
+      <div className = "date">Fall 2021 to Spring 2022 </div>
+    </Col>
+    </Row>
+    <Row>
+      <Col sm = {10}>
+        <div className = "padding1">
+          <h5><i>Project Lead for New Beginnings</i></h5>
+        </div>
         <p> - Conducted extensive research on factors related to rates of recidivism, the rate at which ex-offenders return to prison </p>
         <p> - Developed curriculum centered around professional development, mentorship and mental health target to reducing recidivism rates </p>
         <p> - Secured a $3,000 grant from Menasha Corporation </p>
@@ -108,11 +163,10 @@ export const FullCV = () => (
         <p> - Won an additional $3,000 from Menasha accelerator </p>
         <p> - Developing online platform/mobile application to consolidate all resources for recently released offenders to ease assimilation back into society </p>
     </Col>
-
-    <Col sm ={2}>
-      <div className = "date">Fall 2019 to Fall 2021 </div>
-    </Col>
-    </Row>
+        <Col sm ={2}>
+          <div className = "date">Fall 2019 to Fall 2021</div>
+        </Col>
+      </Row>
     <Row>
       <Col sm = {10}>
         <div className = "padding1">
@@ -232,31 +286,31 @@ export const FullCV = () => (
            <Row>
            <Col sm ={10}>
            <h3 className = "lposition"> Rutgers Olympic Weightlifting </h3><h5 className = "lposition" ><i> Vice President</i></h5> </Col>
-           <Col sm ={2}><div className = "date"> Spring 2020 - Present </div></Col>
+           <Col sm ={2}><div className = "date"> Spring 2020 - Fall 2021 </div></Col>
            </Row>
 
            <Row>
            <Col sm ={10}>
            <h3 className = "lposition"> Woodbridge Township Ambulance and Rescue Squad </h3><h5 className = "lposition" ><i>  EMT, Crew Chief</i></h5> </Col>
-           <Col sm ={2}><div className = "date"> 2017 - Present </div></Col>
+           <Col sm ={2}><div className = "date"> 2017 - 2021 </div></Col>
            </Row>
 
            <Row>
            <Col sm ={10}>
            <h3 className = "lposition"> WomenBUILD </h3><h5 className = "lposition" ><i>  Spring Summit Marketing Committee</i></h5> </Col>
-           <Col sm ={2}><div className = "date"> Spring 2019 - Present </div></Col>
+           <Col sm ={2}><div className = "date"> Spring 2019 - 2021 </div></Col>
            </Row>
 
            <Row>
            <Col sm ={10}>
            <h3 className = "lposition"> Road to Silicon Valley </h3><h5 className = "lposition" ><i>  Inauguaral Cohort Member</i></h5> </Col>
-           <Col sm ={2}><div className = "date"> Spring 2020 - Present </div></Col>
+           <Col sm ={2}><div className = "date"> Spring 2020 - 2022 </div></Col>
            </Row>
 
            <Row>
            <Col sm ={10}>
            <h3 className = "lposition"> MyPeakScore </h3><h5 className = "lposition" ><i>  SAT Tutor </i></h5> </Col>
-           <Col sm ={2}><div className = "date"> 2019 - Present </div></Col>
+           <Col sm ={2}><div className = "date"> 2019 - 2022 </div></Col>
            </Row>
 
            <Row>
@@ -280,8 +334,13 @@ export const FullCV = () => (
       </div>
 
       <Row>
+      <Col sm={10}><h5>National Association of Rocketry - Level 1 Certified</h5> </Col>
+      <Col sm={2}><div className = "date"> June 2022 </div></Col>
+      </Row>
+
+      <Row>
       <Col sm={10}><h5>Dean's List</h5> </Col>
-      <Col sm={2}><div className = "date"> 2018 - 2020</div></Col>
+      <Col sm={2}><div className = "date"> 2018 - 2022</div></Col>
       </Row>
 
       <Row>
@@ -299,9 +358,9 @@ export const FullCV = () => (
         <h1> Skills </h1>
       </div>
       </div>
-      <h5><b> Programming Languages:</b> Java, Python, C, JavaScript, HTML, CSS, SQL </h5>
+      <h5><b> Programming Languages:</b> Java, Python, C, JavaScript, HTML, CSS, SQL, C# </h5>
       <h5><b> Languages:</b> English, Hindi, Marwari, Spanish </h5>
-      <h5><b> Software:</b> React, MATLAB, Autodesk Fusion, Autodesk Inventor, SolidWorks, SketchUp, Microsoft Office</h5>
+      <h5><b> Software:</b> React, MATLAB, Autodesk Fusion, Autodesk Inventor, SolidWorks, SketchUp, Microsoft Office, Microsoft Dynamics</h5>
 
   </div>
 )

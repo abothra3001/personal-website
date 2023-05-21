@@ -61,7 +61,7 @@ export const ContactMe = () => (
       <Col>
       <div className = 'padding50'>
       <div className = "align-center">
-      <a href = 'https://www.instagram.com/jellibelli_sings/'>
+      <a href = 'https://www.instagram.com/anjali_bunjali/'>
         <img src = {instagram} height = {27} className = 'lposition' />
         <h7 className = 'lposition'> jellibelli_sings </h7>
         </a>
