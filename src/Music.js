@@ -4,9 +4,10 @@ import solitude from './assets/Solitude.mp4'
 
 export const Music = () => (
   <div>
-    <h1> In my free time I like to make music and music videos!</h1>
+    <h1> Check out <a href = "anjalimusic.com" target="_blank" rel="noopener noreferrer"> my music website</a></h1>
 
     <div className = "padding20"></div>
+    
     <p> In March 2023, I dropped my first album called Apathy. Give it a listen on <a href = "https://open.spotify.com/album/5v5EsQF8LCHRUeuhljX2yb" target="_blank" rel="noopener noreferrer">Spotify</a> or <a href = "https://music.apple.com/us/album/apathy/1676713659" target="_blank" rel="noopener noreferrer">Apple Music </a>! </p>
 "
     <div align = "center">
