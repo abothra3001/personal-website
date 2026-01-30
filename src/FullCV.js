@@ -99,6 +99,20 @@ export const FullCV = () => (
     </div>
     <Row>
     <Col sm = {10}>
+    <h3 className = "lposition"> Starr Insurance </h3><h5 className = "lposition" ><i> IT Finance Consultant</i></h5>
+	
+        <p> - Collaborated with 10+ cross-functional teams to track multi-million dollar spending across multiple platforms, improving reporting accuracy and consistency through technical automation </p>
+		<p> - Partnered with internal AI organization to assess ROI and identify high-impact applications for emerging technologies, demonstrating ability to evaluate technical solutions through business lens</p>
+		<p> - Automated invoice processing using programming skills, reducing manual work while improving efficiency—showcasing ability to build practical technical solutions </p>
+		<p> -Created comprehensive presentations to support data-driven decisions, translating complex financial data into understandable insights for diverse stakeholders </p>
+        </Col>
+
+    <Col sm ={2}>
+      <div className = "date"> Fall 2024 to 2026 </div>
+    </Col>
+    </Row>
+    <Row>
+    <Col sm = {10}>
     <h3 className = "lposition"> Tektronix </h3><h5 className = "lposition" ><i> Application Developer Analyst</i></h5>
         <p> - Restructuring and redesigning of data from various softwares (Gage, IMH) to Micorsoft Dynamics </p>
         <p> - Modifying Entities in Microsft Dynamics through Dynamics UI, C# assembly, Javascript, PowerAutomate, XRM Toolbox, etc. </p>
@@ -111,6 +125,22 @@ export const FullCV = () => (
     
     </Col>
     </Row>
+    <Row>
+    <Col sm = {10}>
+    <h3 className = "lposition"> Anjali LLC </h3><h5 className = "lposition" ><i> Founder & Owner</i></h5>
+	
+        <p> - Built and nurtured a vibrant artistic community across Portland and NYC metro areas, fostering collaboration through authentic engagement and shared creative goals </p>
+        <p> - Leveraged social media strategy and content creation to promote musical projects and performances, directly experiencing the creator journey that Buffer's tools support </p>
+        <p> - Developed comprehensive business models and websites, combining technical implementation with strategic planning to run a sustainable creative enterprise </p>
+        <p> - Performed at public and private venues, demonstrating comfort with live presentation and audience engagement</p>
+
+        </Col>
+
+    <Col sm ={2}>
+      <div className = "date"> Fall 2023 to Present </div>
+    </Col>
+    </Row>
+    <Row></Row>
     <Row>
       <Col sm = {10}>
         <div className = "padding1">
